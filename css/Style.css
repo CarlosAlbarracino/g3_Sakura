@@ -8,3 +8,16 @@ header{
     height: 100vh;
     position: relative;
 }
+.menu-elemento{
+font-family: 'Times New Roman';
+display: flex;
+
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
