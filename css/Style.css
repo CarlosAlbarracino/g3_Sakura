@@ -11,13 +11,55 @@ header{
 .menu-elemento{
 font-family: 'Times New Roman';
 display: flex;
-
+padding: 2%;
+color: white;
+border: white;
 }
 
+.menu-elemento:hover{
+    color: brown ;
+}
 
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    background-color: #3b3431;
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   
+}
+
+.busqueda{
+    display: flex;
+    padding: 2%;
+}
+
+.logo{
+    padding: 10px;
+    height: 150px;
+    width: 200px;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.logo img {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.busqueda{
+    font-family: 'Times New Roman';
+}
+
+.busqueda span{ 
+    color: white;
 }
