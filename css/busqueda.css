@@ -1,0 +1,10 @@
+.busqueda span{ 
+    color: white;
+}
+
+.busqueda{
+    display: flex;
+    padding: 2%;
+    
+}
+
